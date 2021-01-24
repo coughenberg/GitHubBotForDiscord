@@ -27,6 +27,8 @@ jobs:
       run: echo Hello, world!
     - name: yarn install
       run: yarn install
+    - name: yarn install typescript and ts eslint
+      run: yarn add -D typescript @typescript-eslint/parser
     - name: eslint
       uses: icrawl/action-eslint@v1
       with:
