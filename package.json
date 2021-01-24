@@ -16,7 +16,11 @@
     "url": "https://github.com/coughenberg/GitHubBotForDiscordTesting/issues"
   },
   "homepage": "https://github.com/coughenberg/GitHubBotForDiscordTesting#readme",
-  "dependencies": {
-    "eslint": "^7.18.0"
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "eslint": "^7.18.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
