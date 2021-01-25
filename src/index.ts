@@ -1,5 +1,6 @@
 console.log('hello world');
 hiThere();
+ERRO
 
 /**
  * Logs a goodbye world to check function calling.
