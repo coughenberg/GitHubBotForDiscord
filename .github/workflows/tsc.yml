@@ -17,7 +17,7 @@ jobs:
         node-version: 12
     - name: yarn install
       run: yarn install
-    -name: yarn install ts compiler
+    - name: yarn install ts compiler
       run: yarn add tsc
     - name: tsc
       uses: icrawl/action-tsc@v1
