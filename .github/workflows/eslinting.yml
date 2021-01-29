@@ -28,6 +28,7 @@ jobs:
       with:
         custom-glob: src
 
+  # Checks that the code compiles the TypeScript
   tsc:
     name: TypeScript Compiler
     runs-on: ubuntu-latest
@@ -39,6 +40,8 @@ jobs:
         node-version: 12
     - name: yarn install
       run: yarn install
+    - name: yarn install ts
+      run: yarn add typescript
     - name: yarn install ts compiler
       run: yarn add tsc
     - name: tsc
